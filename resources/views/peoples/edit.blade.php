@@ -13,7 +13,7 @@
     <div class="container">
         <a href="{{ route('people.index') }}"><button class="button">Back</button></a>
 
-      <h1 class="form-title">Fill-up Information</h1>
+      <h1 class="form-title">Update Information</h1>
       <form method="post" action="{{ route('people.update', ['people' => $people ]) }}">
     @csrf
     @method('put')

@@ -24,7 +24,7 @@ class peopleController extends Controller
                 'name' => 'required',
                 'address' => 'required',
                 'email' => 'required',
-                'number' => 'required|numeric'
+                'number' => 'required'
             ]
             );
 
